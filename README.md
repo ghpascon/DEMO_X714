@@ -14,12 +14,15 @@ O **X714** é um dispositivo leitor RFID desenvolvido para facilitar a leitura e
 
 ## 🛠️ Verificando a Porta COM
 1. Abra o **Gerenciador de Dispositivos** no seu computador (Device Manager).
+
 ![Gerenciador de Dispisitivos](md_imgs/gerenciado_dispositivos.png)
 
 <div style="page-break-after: always;"></div>
 
 2. Expanda a seção **Portas (COM e LPT)**.
+
 ![Portas COM](md_imgs/portas_com.png)
+
 3. Localize o dispositivo X714 e anote o número da **porta COM** atribuída (exemplo: COM27).
 
 ---
@@ -27,12 +30,16 @@ O **X714** é um dispositivo leitor RFID desenvolvido para facilitar a leitura e
 
 ## ⚙️ Configurando o Arquivo de Configuração
 1. Abra o arquivo `config/config.txt` localizado na pasta do software.
+
 ![Pasta](md_imgs/config_folder.png)
+
 ![arquivo](md_imgs/config_file.png)
+
 2. Atualize o valor da porta COM de acordo com o número identificado anteriormente.
    ```
    "PORT":"COM27"
    ```
+
 ![port](md_imgs/config_port.png)
 
 ---
@@ -40,8 +47,11 @@ O **X714** é um dispositivo leitor RFID desenvolvido para facilitar a leitura e
 
 ## ▶️ Executando o Software
 1. Localize o arquivo **main** na pasta do software e execute o programa.
+
 ![port](md_imgs/main.png)
+
 2. A interface principal será exibida em uma aba do seu navegador.
+
 ![interface](md_imgs/interface.png)
 
 ---
@@ -65,11 +75,13 @@ O **X714** é um dispositivo leitor RFID desenvolvido para facilitar a leitura e
 - **Start**: Inicia o processo de leitura das tags RFID!.
 - **Stop**: Interrompe a leitura em andamento.
 - **Clear**: Limpa a lista de tags lidas.
+
 ![Botões](md_imgs/botoes.png)
 
 - **Config**:
   - **Session**: permite selecionar o número da sessão (0-3).
   - **Power**: permite ajustar a potência de transmissão do leitor (12–30 dBm).
+
 ![Config](md_imgs/config.png)
 
 <div style="page-break-after: always;"></div>
