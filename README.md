@@ -50,10 +50,15 @@ O **X714** é um dispositivo leitor RFID desenvolvido para facilitar a leitura e
 ## 🖥️ Interface
 ### 🔌 Status do Leitor
 1. Leitor não conectado, verifique se a configuração da porta COM está correta.
+
 ![Desconectado](md_imgs/desconectado.png)
+
 2. Aguardando iniciar leitura.
+
 ![Aguardnado](md_imgs/aguardando.png)
+
 3. Realizando leitura
+
 ![Lendo](md_imgs/lendo.png)
 
 ### 🔹 Botões:
