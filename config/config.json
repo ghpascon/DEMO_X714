@@ -1,0 +1,10 @@
+{
+    "SECRET_KEY":"smtx",
+    "DATABASE_URL": "mysql+aiomysql://root:admin@localhost:3306/x714",
+    "WRITE_RETRY_COUNT":3,
+    "STORAGE_TAGS":false,
+    "STORAGE_DAYS":1,
+    "LOG_PATH":"Logs",
+    "PORT":"COM27",
+    "BAUDRATE":115200
+}

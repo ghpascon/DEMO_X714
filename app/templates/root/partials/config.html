@@ -1,0 +1,29 @@
+<div style="width: 100%; padding-left: 20px;">
+    <button class="btn btn-warning mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#formCollapse" aria-expanded="false" aria-controls="formCollapse">
+        CONFIG
+    </button>
+    
+    <div class="collapse" id="formCollapse">
+        <div class="card card-body">
+            <form id="configForm" action="/reader/config" method="POST">
+                
+                <div class="mb-3">
+                    <label for="session" class="form-label">SESSION</label>
+                    <select id="session" name="session" class="form-select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="power" class="form-label">POWER</label>
+                    <input type="number" id="power" name="power" class="form-control" min="12" max="30" required>
+                </div>
+                
+                <button type="submit" class="btn btn-success">APPLY</button>
+            </form>
+        </div>
+    </div>
+</div>
